@@ -8,5 +8,15 @@ app.config(function ($routeProvider) {
             controller: 'TabataController',
             templateUrl: '/app/partials/tabata.html'
         })
+        .when('/jumpingjacks',
+        {
+            controller: 'JumpingjacksController',
+            templateUrl: 'app/partials/jumpingjacks.html'
+        })
+        .when('/rest',
+        {
+            controller: 'RestController',
+            templateUrl: 'app/partials/rest.html'
+        })
         .otherwise({ redirectTo: '/' });
 });
