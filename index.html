@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="tabataApp">
+
+<head>
+    <title>Tabata Workout</title>
+    <link href="bower_components/bootstrap4/dist/css/bootstrap.css" rel="stylesheet" >
+    <link href="app/Content/style.css" rel="stylesheet" />
+    <link href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div ng-view></div>
+
+    <!-- Vendor Libs: jQuery only used for Bootstrap functionality -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/jQuery/dist/jquery.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    
+    <!-- UI Libs -->
+    <script src="bower_components/bootstrap4/dist/js/bootstrap.js"></script>
+    
+    <!-- App libs -->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/controllers.js"></script>
+</body>
+
+</html>

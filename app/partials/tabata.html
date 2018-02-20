@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <button ng-click="minus()" ng-disabled="disableMinus" class="btn btn-primary"> - </button>
+            <button ng-click="plus()" ng-disabled="disablePlus" class="btn btn-primary"> + </button>
+        </div>
+    </div>
+    <div>
+        WORKOUT TIMER - {{timeLimit}}
+        <h1>{{ timer + ' MINUTE' }}</h1>
+        <button ng-click="startTimer()"> START </button>
+    </div>
+</div>

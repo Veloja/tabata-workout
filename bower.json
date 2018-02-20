@@ -1,0 +1,25 @@
+{
+  "name": "Tabata app",
+  "authors": [
+    "Vladan <vladanvelojic@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap4": "^4.0.0",
+    "angular": "^1.6.9",
+    "jQuery": "^3.3.1",
+    "fontawesome": "^5.0.6",
+    "angular-route": "^1.6.9",
+    "angular-sanitize": "^1.6.9"
+  }
+}
